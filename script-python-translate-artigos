@@ -17,3 +17,5 @@ def translate_article(text, lang):
     response = client.invoke(messages)
     print(response.content)
     return response.content
+
+translate_article("Let's see if the deployment was succeeded.", "portugues")
