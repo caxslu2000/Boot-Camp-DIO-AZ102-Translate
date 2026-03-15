@@ -1,8 +1,8 @@
 from langchain_openai.chat_models.azure import AzureChatOpenAI
 
 client = AzureChatOpenAI(
-    azure_endpoint="https://oai-dio-bootcamp-dev-eastus-001.openai.azure.com/",
-    api_key="13qjsa1",
+    azure_endpoint="https://oai-dev-eastus-001.openai.azure.com/",
+    api_key="",
     api_version="2024-02-15-preview",
     deployment_name="gpt-4o-mini",
     max_retries=0
